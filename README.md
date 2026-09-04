@@ -77,15 +77,19 @@ funciona muito bem.
 
 ---
 
-## 🌐 Como colocar no ar (grátis)
+## 🌐 O site está no ar
 
-**Opção mais fácil — Netlify Drop:**
+**👉 https://mpaulinhu.github.io/site-bolos-paes/**
+
+Hospedado de graça no GitHub Pages. **Toda vez que você editar um arquivo aqui e
+enviar pro GitHub (`git push`), o site no ar se atualiza sozinho em ~1 minuto.**
+
+### Outras opções de hospedagem
+
+**Netlify Drop:**
 1. Acesse https://app.netlify.com/drop
 2. Arraste a pasta inteira do site pra dentro da página
 3. Pronto, sai um endereço no ar em segundos
-
-**Pelo GitHub Pages:** nas configurações do repositório → Pages → escolher a
-branch `main` → salvar.
 
 Depois dá pra comprar um domínio próprio (tipo `fornoeafeto.com.br`, uns R$ 40/ano
 no registro.br) e apontar pro site.
