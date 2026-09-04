@@ -1,4 +1,4 @@
-# 🧁 Forno & Afeto — site de bolos e pães
+# 🧁 Cida Tavares — site de bolos e pães
 
 Site de uma página só, feito em HTML/CSS/JavaScript puro. Não precisa instalar nada,
 não precisa de build, não precisa de banco de dados. É só abrir o `index.html`.
@@ -9,10 +9,11 @@ não precisa de build, não precisa de banco de dados. É só abrir o `index.htm
 
 ### 1. O nome da loja
 
-O nome aparece em **4 lugares** no `index.html`. Abra o arquivo num editor de texto,
-use "Localizar e substituir" (Ctrl+H) e troque `Forno & Afeto` pelo nome real.
+O nome atual é **Cida Tavares** e aparece em **4 lugares** no `index.html`. Se um dia
+quiser mudar, abra o arquivo num editor de texto, use "Localizar e substituir"
+(Ctrl+H) e troque `Cida Tavares` pelo nome novo.
 
-Troque também o `<title>` (é o que aparece na aba do navegador).
+Um deles é o `<title>` — é o que aparece na aba do navegador.
 
 ### 2. O número do WhatsApp
 

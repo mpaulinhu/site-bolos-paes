@@ -3,7 +3,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 const WHATSAPP = '5511949544737';   // DDI + DDD + número, só dígitos
-const NOME_LOJA = 'Forno & Afeto';  // (o nome também aparece no index.html)
+const NOME_LOJA = 'Cida Tavares';  // (o nome também aparece no index.html)
 
 /* ═══════════════════════════════════════════════════════════
    Daqui pra baixo não precisa mexer
