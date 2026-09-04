@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forno &amp; Afeto — Bolos e Pães Artesanais</title>
+<meta name="description" content="Bolos caseiros e pães artesanais feitos com carinho, todos os dias. Peça pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127849;</text></svg>">
+</head>
+<body>
+
+<a class="skip-link" href="#cardapio">Pular para o cardápio</a>
+
+<!-- ══ HEADER ══ -->
+<header class="site-header" id="topo">
+  <div class="wrap header-inner">
+    <a class="brand" href="#topo" aria-label="Página inicial">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M8 30c0-8.8 7.2-16 16-16s16 7.2 16 16" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><path d="M5 31h38a3 3 0 0 1 3 3v2a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-2a3 3 0 0 1 3-3Z" fill="currentColor"/><path d="M24 6v5M16 9v3M32 9v3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-text">
+        <strong>Forno &amp; Afeto</strong>
+        <em>bolos &amp; pães artesanais</em>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#bolos">Bolos</a>
+      <a href="#paes">Pães</a>
+      <a href="#sobre">Nossa história</a>
+      <a href="#encomendas">Encomendas</a>
+    </nav>
+
+    <a class="btn btn-wa header-cta" href="#" data-wa="Olá! Vim pelo site e gostaria de fazer um pedido 😊">
+      <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2Z"/><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+      Pedir no zap
+    </a>
+
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-blob hero-blob-a" aria-hidden="true"></div>
+  <div class="hero-blob hero-blob-b" aria-hidden="true"></div>
+
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span> Feito hoje, ainda quentinho</span>
+      <h1>Bolo de vó,<br><span class="hl">pão de forno</span><br>e cheiro de casa.</h1>
+      <p class="lead">Tudo assado no dia, com manteiga de verdade, fermentação natural e aquele tempero que só mão de mãe tem. Encomende pelo WhatsApp e receba fresquinho.</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-wa btn-lg" href="#" data-wa="Olá! Vim pelo site e gostaria de fazer um pedido 😊">
+          <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2Z"/><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+          Fazer meu pedido
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#cardapio">Ver o cardápio ↓</a>
+      </div>
+
+      <ul class="hero-badges">
+        <li><span aria-hidden="true">🧈</span> Ingredientes de verdade</li>
+        <li><span aria-hidden="true">🌾</span> Fermentação natural</li>
+        <li><span aria-hidden="true">🛵</span> Entrega na região</li>
+      </ul>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="art-card art-card-1">
+        <div class="ph ph-cake"><svg viewBox="0 0 64 64"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></div>
+        <span class="art-tag">Bolo de cenoura</span>
+      </div>
+      <div class="art-card art-card-2">
+        <div class="ph ph-bread"><svg viewBox="0 0 64 64"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg></div>
+        <span class="art-tag">Pão caseiro</span>
+      </div>
+      <div class="art-card art-card-3">
+        <div class="ph ph-slice"><svg viewBox="0 0 64 64"><path d="M14 46 32 14l18 32H14Z" fill="currentColor"/><circle cx="32" cy="36" r="3.5" fill="#fff" opacity=".6"/><circle cx="26" cy="42" r="2.5" fill="#fff" opacity=".6"/></svg></div>
+        <span class="art-tag">Fatia do dia</span>
+      </div>
+      <div class="art-sticker">Sem foto ainda?<br><b>Aqui entram as fotos 📸</b></div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Bolo de fubá</span><span>•</span><span>Pão de queijo</span><span>•</span><span>Focaccia</span><span>•</span><span>Bolo de chocolate</span><span>•</span><span>Pão italiano</span><span>•</span><span>Brioche</span><span>•</span><span>Bolo de milho</span><span>•</span><span>Baguete</span><span>•</span>
+      <span>Bolo de fubá</span><span>•</span><span>Pão de queijo</span><span>•</span><span>Focaccia</span><span>•</span><span>Bolo de chocolate</span><span>•</span><span>Pão italiano</span><span>•</span><span>Brioche</span><span>•</span><span>Bolo de milho</span><span>•</span><span>Baguete</span><span>•</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CARDÁPIO ══ -->
+<main id="cardapio">
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-dark"><span class="dot"></span> Nosso cardápio</span>
+        <h2>Escolha o seu preferido</h2>
+        <p class="section-sub">Todos os itens são feitos sob encomenda. Peça com antecedência de 1 dia para bolos inteiros.</p>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Filtrar por categoria">
+        <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Tudo</button>
+        <button class="chip" data-filter="bolos" role="tab" aria-selected="false">🎂 Bolos</button>
+        <button class="chip" data-filter="paes" role="tab" aria-selected="false">🥖 Pães</button>
+        <button class="chip" data-filter="doces" role="tab" aria-selected="false">🍰 Doces &amp; fatias</button>
+        <button class="chip" data-filter="salgados" role="tab" aria-selected="false">🧀 Salgados</button>
+      </div>
+
+      <!-- BOLOS -->
+      <div class="cat-block" id="bolos" data-cat="bolos">
+        <div class="cat-head">
+          <h3><span class="cat-emoji" aria-hidden="true">🎂</span> Bolos</h3>
+          <p>Inteiros ou por fatia. Recheios trocáveis, é só pedir.</p>
+        </div>
+        <div class="grid">
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-1"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de cenoura</h4><span class="price">R$ 45</span></div>
+              <p>Massa fofinha com cobertura de chocolate cremosa feita na panela. O clássico que nunca sai da lista.</p>
+              <div class="card-foot">
+                <span class="tag">Mais pedido</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar um *Bolo de cenoura* 🥕">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-2"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de chocolate</h4><span class="price">R$ 55</span></div>
+              <p>Três camadas de chocolate meio amargo, recheio de brigadeiro e ganache por cima. Puro chocolate.</p>
+              <div class="card-foot">
+                <span class="tag tag-alt">Favorito da casa</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar um *Bolo de chocolate* 🍫">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-3"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de fubá cremoso</h4><span class="price">R$ 38</span></div>
+              <p>Com goiabada derretida no meio e erva-doce. Aquele de tarde com café passado na hora.</p>
+              <div class="card-foot">
+                <span class="tag">Com goiabada</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar um *Bolo de fubá cremoso* 🌽">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-4"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de milho</h4><span class="price">R$ 40</span></div>
+              <p>Feito com milho verde batido e leite condensado. Úmido, docinho, com casquinha dourada.</p>
+              <div class="card-foot">
+                <span class="tag">Sazonal</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar um *Bolo de milho* 🌽">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-5"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de aniversário</h4><span class="price">sob consulta</span></div>
+              <p>Decorado do seu jeito, recheio à escolha. Encomende com 3 dias de antecedência.</p>
+              <div class="card-foot">
+                <span class="tag tag-alt">Personalizado</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria um orçamento de *Bolo de aniversário* 🎉">Orçar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="bolos">
+            <div class="card-media ph-tone-6"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 40c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="8" y="40" width="48" height="14" rx="5" fill="currentColor"/><path d="M32 10v8M22 14v5M42 14v5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Bolo de laranja</h4><span class="price">R$ 40</span></div>
+              <p>Com raspas e calda cítrica por cima, feito com laranja espremida na hora. Leve e perfumado.</p>
+              <div class="card-foot">
+                <span class="tag">Cítrico</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar um *Bolo de laranja* 🍊">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- PÃES -->
+      <div class="cat-block" id="paes" data-cat="paes">
+        <div class="cat-head">
+          <h3><span class="cat-emoji" aria-hidden="true">🥖</span> Pães</h3>
+          <p>Fermentação lenta, assados de manhã cedo. Retirada a partir das 8h.</p>
+        </div>
+        <div class="grid">
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-2"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Pão caseiro</h4><span class="price">R$ 18</span></div>
+              <p>Aquele pão redondo de casca dourada e miolo macio. Vai bem com tudo, principalmente com manteiga.</p>
+              <div class="card-foot">
+                <span class="tag">Todo dia</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Pão caseiro* 🍞">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-1"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Pão italiano</h4><span class="price">R$ 24</span></div>
+              <p>Fermentação natural de 24 horas, casca crocante e alvéolos abertos. Dura a semana toda.</p>
+              <div class="card-foot">
+                <span class="tag tag-alt">Levain</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Pão italiano* 🥖">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-3"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Focaccia de alecrim</h4><span class="price">R$ 32</span></div>
+              <p>Assada na assadeira com azeite generoso, flor de sal e alecrim fresco. Sai um tabuleiro inteiro.</p>
+              <div class="card-foot">
+                <span class="tag">Vegana</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Focaccia de alecrim* 🌿">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-4"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Brioche</h4><span class="price">R$ 28</span></div>
+              <p>Amanteigado, macio e levemente doce. Ótimo pra torrada da manhã ou pra hambúrguer caseiro.</p>
+              <div class="card-foot">
+                <span class="tag">Amanteigado</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Brioche* 🧈">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-5"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Baguete</h4><span class="price">R$ 12</span></div>
+              <p>Crocante por fora, leve por dentro. Assada duas vezes ao dia — encomende a sua quentinha.</p>
+              <div class="card-foot">
+                <span class="tag">Unidade</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Baguete* 🥖">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="paes">
+            <div class="card-media ph-tone-6"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c0-9 10-16 22-16s22 7 22 16-10 14-22 14-22-5-22-14Z" fill="currentColor"/><path d="M24 26c2 6 2 10 0 16M34 25c2 6 2 11 0 17M44 27c2 5 2 9 0 14" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".55"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Pão doce trançado</h4><span class="price">R$ 22</span></div>
+              <p>Trançado à mão com creme de baunilha e açúcar de confeiteiro. Some rápido do balcão.</p>
+              <div class="card-foot">
+                <span class="tag tag-alt">Novidade</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Pão doce trançado* 🥐">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- DOCES -->
+      <div class="cat-block" id="doces" data-cat="doces">
+        <div class="cat-head">
+          <h3><span class="cat-emoji" aria-hidden="true">🍰</span> Doces &amp; fatias</h3>
+          <p>Pra quem quer só um pedacinho (ou uma caixa inteira).</p>
+        </div>
+        <div class="grid">
+
+          <article class="card" data-cat="doces">
+            <div class="card-media ph-tone-3"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 46 32 14l18 32H14Z" fill="currentColor"/><circle cx="32" cy="36" r="3.5" fill="#fff" opacity=".6"/><circle cx="26" cy="42" r="2.5" fill="#fff" opacity=".6"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Fatia do dia</h4><span class="price">R$ 9</span></div>
+              <p>A fatia generosa do bolo que saiu do forno hoje. Pergunte qual é o sabor da vez!</p>
+              <div class="card-foot">
+                <span class="tag">Varia todo dia</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Qual é a *Fatia do dia* hoje? 🍰">Perguntar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="doces">
+            <div class="card-media ph-tone-6"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="34" r="16" fill="currentColor"/><path d="M32 18v-6M24 20l-3-5M40 20l3-5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Cookies caseiros</h4><span class="price">R$ 6 <small>/un</small></span></div>
+              <p>Gotas de chocolate meio amargo, macios no centro. Leve 6 e pague 5.</p>
+              <div class="card-foot">
+                <span class="tag">Combo 6un</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Cookies caseiros* 🍪">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="doces">
+            <div class="card-media ph-tone-1"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M20 28h24l-3 22a4 4 0 0 1-4 4H27a4 4 0 0 1-4-4l-3-22Z" fill="currentColor"/><path d="M22 28c0-7 4-12 10-12s10 5 10 12" fill="none" stroke="currentColor" stroke-width="3"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Pudim de leite</h4><span class="price">R$ 42</span></div>
+              <p>Sem furinhos, com calda de caramelo escura. Serve de 8 a 10 pessoas.</p>
+              <div class="card-foot">
+                <span class="tag tag-alt">Clássico</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Pudim de leite* 🍮">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- SALGADOS -->
+      <div class="cat-block" id="salgados" data-cat="salgados">
+        <div class="cat-head">
+          <h3><span class="cat-emoji" aria-hidden="true">🧀</span> Salgados</h3>
+          <p>Pra encher a mesa do café da tarde ou aquele lanche rápido.</p>
+        </div>
+        <div class="grid">
+
+          <article class="card" data-cat="salgados">
+            <div class="card-media ph-tone-4"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="24" cy="34" r="11" fill="currentColor"/><circle cx="41" cy="36" r="9" fill="currentColor" opacity=".75"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Pão de queijo</h4><span class="price">R$ 35 <small>/kg</small></span></div>
+              <p>Com queijo canastra de verdade. Congelado pra assar em casa ou pronto pra levar.</p>
+              <div class="card-foot">
+                <span class="tag">Cru ou assado</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Pão de queijo* 🧀">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="salgados">
+            <div class="card-media ph-tone-5"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 40c0-10 8-18 18-18s18 8 18 18-8 8-18 8-18 2-18-8Z" fill="currentColor"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Torta salgada</h4><span class="price">R$ 55</span></div>
+              <p>Frango cremoso ou palmito, massa fofinha com queijo por cima. Assadeira média serve 8.</p>
+              <div class="card-foot">
+                <span class="tag">2 sabores</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Torta salgada* 🥧">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-cat="salgados">
+            <div class="card-media ph-tone-2"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 24h28v22a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6V24Z" fill="currentColor"/><path d="M18 24c0-6 6-10 14-10s14 4 14 10" fill="none" stroke="currentColor" stroke-width="3"/></svg><span class="media-note">foto em breve</span></div>
+            <div class="card-body">
+              <div class="card-top"><h4>Empadinhas</h4><span class="price">R$ 5 <small>/un</small></span></div>
+              <p>Massa que desmancha na boca, recheio de frango com catupiry. Mínimo 10 unidades.</p>
+              <div class="card-foot">
+                <span class="tag">Mín. 10un</span>
+                <a class="btn btn-sm btn-wa" href="#" data-wa="Oi! Queria encomendar *Empadinhas* 🥟">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <p class="empty-state" id="emptyState" hidden>Nenhum item nessa categoria por enquanto 🙂</p>
+    </div>
+  </section>
+
+  <!-- ══ SOBRE ══ -->
+  <section class="section section-warm" id="sobre">
+    <div class="wrap about">
+      <div class="about-art" aria-hidden="true">
+        <div class="about-frame">
+          <svg viewBox="0 0 120 120"><circle cx="60" cy="46" r="20" fill="currentColor" opacity=".9"/><path d="M22 108c0-21 17-34 38-34s38 13 38 34" fill="currentColor" opacity=".9"/></svg>
+          <span class="about-note">foto da mamãe aqui 💛</span>
+        </div>
+        <div class="about-badge">
+          <b>+20</b>
+          <span>anos<br>de forno</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow eyebrow-dark"><span class="dot"></span> Nossa história</span>
+        <h2>Começou na cozinha de casa — e nunca mudou de lugar.</h2>
+        <p>Tudo aqui nasceu de um caderno de receitas escrito à mão, cheio de anotação na margem e mancha de manteiga. É o mesmo bolo que a família comia no domingo, feito na mesma medida, com o mesmo cuidado.</p>
+        <p>Não tem linha de produção nem conservante: cada bolo é montado um por vez, e cada pão espera o tempo dele pra crescer. Se sair um pouquinho diferente do outro, é porque foi feito à mão mesmo.</p>
+        <ul class="about-list">
+          <li><span aria-hidden="true">✓</span> Receitas de família, sem atalho</li>
+          <li><span aria-hidden="true">✓</span> Assado no dia da entrega</li>
+          <li><span aria-hidden="true">✓</span> Opções sem lactose sob encomenda</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ COMO PEDIR ══ -->
+  <section class="section" id="encomendas">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow eyebrow-dark"><span class="dot"></span> Encomendas</span>
+        <h2>Pedir é rápido assim</h2>
+        <p class="section-sub">Sem app, sem cadastro, sem complicação. É só chamar no WhatsApp.</p>
+      </div>
+
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num">1</span>
+          <h4>Escolha no cardápio</h4>
+          <p>Veja os sabores acima e anote o que te deu vontade. Dá pra misturar bolo e pão no mesmo pedido.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">2</span>
+          <h4>Chame no WhatsApp</h4>
+          <p>Clique em qualquer botão verde. A mensagem já vai pronta com o item — é só apertar enviar.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">3</span>
+          <h4>Combine data e entrega</h4>
+          <p>A gente confirma o valor, o horário e se você prefere retirar ou receber em casa.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">4</span>
+          <h4>Receba fresquinho</h4>
+          <p>Assado no dia combinado. Pagamento no Pix, cartão ou dinheiro na entrega.</p>
+        </li>
+      </ol>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h4><span aria-hidden="true">🕗</span> Horário</h4>
+          <p>Terça a sábado, 8h às 18h<br>Domingo, 8h às 13h<br><small>Segunda fechado (dia de descansar o forno)</small></p>
+        </div>
+        <div class="info-card">
+          <h4><span aria-hidden="true">🛵</span> Entrega</h4>
+          <p>Entregamos no bairro e região.<br>Taxa combinada na hora do pedido.<br><small>Retirada sem custo no local.</small></p>
+        </div>
+        <div class="info-card">
+          <h4><span aria-hidden="true">⏱️</span> Antecedência</h4>
+          <p>Bolos inteiros: 1 dia<br>Bolo de festa: 3 dias<br><small>Pães do dia até as 18h da véspera.</small></p>
+        </div>
+        <div class="info-card">
+          <h4><span aria-hidden="true">💳</span> Pagamento</h4>
+          <p>Pix, dinheiro ou cartão<br>na entrega.<br><small>Encomendas grandes: 50% de sinal.</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA FINAL ══ -->
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <div class="cta-blob" aria-hidden="true"></div>
+      <h2>Bateu vontade de bolo?</h2>
+      <p>Manda uma mensagem que a gente te conta o que saiu do forno hoje.</p>
+      <a class="btn btn-wa btn-lg btn-light" href="#" data-wa="Olá! Vim pelo site 😊 O que tem saindo do forno hoje?">
+        <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2Z"/><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+        Falar no WhatsApp
+      </a>
+      <span class="cta-phone" id="ctaPhone"></span>
+    </div>
+  </section>
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M8 30c0-8.8 7.2-16 16-16s16 7.2 16 16" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/><path d="M5 31h38a3 3 0 0 1 3 3v2a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-2a3 3 0 0 1 3-3Z" fill="currentColor"/><path d="M24 6v5M16 9v3M32 9v3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </span>
+      <div>
+        <strong>Forno &amp; Afeto</strong>
+        <p>Bolos e pães artesanais, feitos em casa com carinho de verdade.</p>
+      </div>
+    </div>
+
+    <nav class="footer-nav" aria-label="Rodapé">
+      <h5>Cardápio</h5>
+      <a href="#bolos">Bolos</a>
+      <a href="#paes">Pães</a>
+      <a href="#doces">Doces &amp; fatias</a>
+      <a href="#salgados">Salgados</a>
+    </nav>
+
+    <div class="footer-contact">
+      <h5>Contato</h5>
+      <a class="footer-wa" href="#" data-wa="Olá! Vim pelo site 😊" id="footerPhone">WhatsApp</a>
+      <p>Terça a sábado · 8h–18h<br>Domingo · 8h–13h</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© <span id="year"></span> Forno &amp; Afeto. Feito com muito amor (e manteiga).</span>
+  </div>
+</footer>
+
+<!-- botão flutuante -->
+<a class="fab" href="#" data-wa="Olá! Vim pelo site e gostaria de fazer um pedido 😊" aria-label="Pedir pelo WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 4.9L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 0 1 3.8 12 8.2 8.2 0 1 1 12 20.2Z"/><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.8.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+  <span>Pedir agora</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
